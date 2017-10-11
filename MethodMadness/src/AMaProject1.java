@@ -6,7 +6,7 @@ public class AMaProject1
 		String date = "mm/dd/yyyy";
 		String dateformatedit = "";
 		String mmString = date.substring(0, 2);
-		String ddString = date.substring(4, 6);
+		String ddString = date.substring(3, 5);
 	}
 	public static void multiplicationtable(int r)
 	{
