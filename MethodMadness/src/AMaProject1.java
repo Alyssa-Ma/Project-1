@@ -20,4 +20,10 @@ public class AMaProject1
 		}
 		count ++;
 	}
+	public static void cutOut()
+	{
+		String mainStr = "I don't know";
+		String subStr = "Even worse";
+		
+	}
 }
