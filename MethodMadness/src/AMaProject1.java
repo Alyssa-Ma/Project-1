@@ -3,10 +3,10 @@ public class AMaProject1
 {
 	public static String dateStrstring()
 	{
-		String dateformat = "10/09/2017";
+		String date = "mm/dd/yyyy";
 		String dateformatedit = "";
-		dateformatedit = dateformat.substring( 0, 3);
-		String datenewformat = "09 - 10 - 2017";
+		String mmString = date.substring(0, 2);
+		String ddString = date.substring(4, 6);
 	}
 	public static void multiplicationtable(int r)
 	{

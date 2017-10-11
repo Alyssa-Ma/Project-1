@@ -6,5 +6,6 @@ public class Runner {
 	public static void main (String [] args) {
 		LLiProject1.isPalindrome("noon");
 		LLiProject1.sumUpTo(4);
+		AMaProject1.dateStrstring();
 	}
 }
