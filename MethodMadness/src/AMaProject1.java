@@ -11,14 +11,12 @@ public class AMaProject1
 			return ddString + "-" + mmString + "-" + yyyyString;
 		}
 	}
-	public static void multiplicationtable(int r)
+	public static multiplicationtable(int b, int r)
 	{
-		int count = 0;
-		for(int n = 0; count >= 0; n++)
+		for(r = 0; r >= b; r++)
 		{
-			System.out.println(n * r);
+			return(b + "*" + r + "=" + (b*r));
 		}
-		count ++;
 	}
 	public static void cutOut()
 	{
