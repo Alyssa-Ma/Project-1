@@ -4,9 +4,12 @@ public class AMaProject1
 	public static String dateStrstring()
 	{
 		String date = "mm/dd/yyyy";
-		String dateformatedit = "";
 		String mmString = date.substring(0, 2);
 		String ddString = date.substring(3, 5);
+		String yyString = date.substring(6, 8);
+		{
+			return ddString + "-" + mmString + "-" + yyString;
+		}
 	}
 	public static void multiplicationtable(int r)
 	{
