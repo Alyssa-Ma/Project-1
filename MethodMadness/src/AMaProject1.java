@@ -11,9 +11,9 @@ public class AMaProject1
 	}
 	public static void multiplicationtable(int b, int r)
 	{
-		for(r = 0; r <= b+2; r++)
+		for(int i = 0; i <= r; i++)
 		{
-			System.out.println(b + "*" + r + "=" + (b*r));
+			System.out.println(b + "*" + i + "=" + (b*r));
 		}
 	}
 	public static String cutOut(String mainStr)
