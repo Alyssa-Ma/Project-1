@@ -1,4 +1,3 @@
-
 public class AMaProject1 
 {
 	public static String dateStrstring(String date)
