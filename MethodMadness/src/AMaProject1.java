@@ -1,21 +1,20 @@
 
 public class AMaProject1 
 {
-	public static String dateStrstring()
+	public static String dateStrstring(String date)
 	{
-		String date = "mm/dd/yyyy";
 		String mmString = date.substring(0, 2);
 		String ddString = date.substring(3, 5);
 		String yyyyString = date.substring(6, 10);
 		{
-			return ddString + "-" + mmString + "-" + yyyyString;
+			return ddString + " - " + mmString + " - " + yyyyString;
 		}
 	}
-	public static multiplicationtable(int b, int r)
+	public static void multiplicationtable(int b, int r)
 	{
-		for(r = 0; r >= b; r++)
+		for(r = 0; r <= b; r++)
 		{
-			return(b + "*" + r + "=" + (b*r));
+			System.out.println(b + "*" + r + "=" + (b*r));
 		}
 	}
 	public static void cutOut()
