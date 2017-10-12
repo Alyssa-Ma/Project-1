@@ -17,10 +17,8 @@ public class AMaProject1
 			System.out.println(b + "*" + r + "=" + (b*r));
 		}
 	}
-	public static void cutOut()
+	public static String cutOut(String mainStr)
 	{
-		String mainStr = "I don't know";
-		String subStr = "Even worse";
-		
+		return mainStr.split(".", 2);
 	}
 }
