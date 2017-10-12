@@ -17,9 +17,8 @@ public class AMaProject1
 			System.out.println(b + "*" + r + "=" + (b*r));
 		}
 	}
-	public static String cutOut()
+	public static String cutOut(String mainStr)
 	{
-		String mainStr = "I want. pizza. please.";
 		String subStr[]= mainStr.split(".", 2);
 		{
 			return subStr[1];
