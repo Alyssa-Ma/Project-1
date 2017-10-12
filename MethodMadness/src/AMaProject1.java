@@ -12,7 +12,7 @@ public class AMaProject1
 	}
 	public static void multiplicationtable(int b, int r)
 	{
-		for(r = 0; r <= b; r++)
+		for(r = 0; r <= b+2; r++)
 		{
 			System.out.println(b + "*" + r + "=" + (b*r));
 		}
