@@ -13,7 +13,7 @@ public class Runner {
 		System.out.println(vigMessage);
 		System.out.println(AMaProject1.dateStrstring("05/12/1965"));
 		AMaProject1.multiplicationtable(6, 8);
-		System.out.println(AMaProject1.cutOut("I. want. pizza."));
+		System.out.println(AMaProject1.cutOut("onetwothree, ne"));
 		//cuts out first instance of a period
 	}
 }

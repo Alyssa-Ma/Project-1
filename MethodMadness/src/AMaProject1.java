@@ -13,14 +13,19 @@ public class AMaProject1
 	{
 		for(int i = 0; i <= r; i++)
 		{
-			System.out.println(b + "*" + i + "=" + (b*r));
+			System.out.println(b + "*" + i + "=" + (b*i));
 		}
 	}
-	public static String cutOut(String mainStr)
+	//fixed base multiplied by range to i
+	public static String cutOut(String mainStr, String subStr)
 	{
-		String subStr[]= mainStr.split(".", 2);
+		for(int i = 0; i < mainStr.length();)
 		{
-			return subStr[1];
+			if(subStr.charAt(i) == mainStr.charAt(i));
+			{
+				return mainStr;
+			}
 		}
+		System.out.println(mainStr);
 	}
 }
