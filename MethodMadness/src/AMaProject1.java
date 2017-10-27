@@ -1,5 +1,6 @@
 public class AMaProject1 
 {
+	//Alyssa Ma edit 10/26/17
 	public static String dateStrstring(String date)
 	{
 		String mmString = date.substring(0, 2);
@@ -19,13 +20,16 @@ public class AMaProject1
 	//fixed base multiplied by range to i
 	public static String cutOut(String mainStr, String subStr)
 	{
-		for(int i = 0; i < mainStr.length();)
+		//test code attempts felt like I could make it work, but only returns ne
+			//int a = mainStr.indexOf(subStr);
+			//mainStr.substring(a);
+			//String finalStr = mainStr.substring(a, subStr.length() + 1);
+			//{
+				//return finalStr;
+			//}
+		String finalStr = (mainStr.replaceAll(subStr,""));
 		{
-			if(subStr.charAt(i) == mainStr.charAt(i));
-			{
-				return mainStr;
-			}
+			return finalStr;
 		}
-		System.out.println(mainStr);
 	}
 }
